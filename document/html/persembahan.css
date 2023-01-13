@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rambla&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rambla:wght@700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li,
+a,
+button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+    background-color: #24252a;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 8px 6vw 8px 6vw;
+
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.45);
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #0088a9;
+}
+
+button {
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgb(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgb(0, 136, 169, 0.8);
+}
+
+#main {
+    /* background-color: #8fdef1; */
+    /* position: relative; */
+    height: 120vh;
+    width: 100%;
+    display: flex;
+}
+
+#kiri {
+    background-color: #24252a;
+    margin-top: 4vh;
+    margin-left: 7vw;
+
+    width: 16vw;
+    height: auto;
+
+    box-shadow: 0px 5px 25px 10px rgba(0, 0, 0, 0.17);
+    border-radius: 8px;
+}
+
+#kanan {
+    background-color: #e4f0f1;
+    margin-top: 4vh;
+    margin-left: 2vw;
+    margin-right: 7vw;
+
+    width: 66vw;
+    height: auto;
+
+    float: right;
+
+    box-shadow: 0px 5px 25px 10px rgba(0, 0, 0, 0.17);
+    border-radius: 8px;
+}
+
+footer {
+    /* background-color: #24252a; */
+    padding: 35px 0px 15px 0px;
+}
+
+.alamat_footer {
+    text-align: center;
+    font-size: 12px;
+}
+
+#logo_gabi {
+    padding-top: 8vh;
+    height: 24vh;
+    background-color: #edf0f1;
+
+    border-radius: 7px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+#menu_kiri {
+    margin-top: 1.5vh;
+}
+
+.warta,
+.artikel,
+.renungan,
+.info_ibadah,
+.persembahan,
+.acara,
+.galeri,
+.gereja_cabang,
+.sejarah_gereja,
+.tentang {
+    /* background-color: #0088a9; */
+    padding-top: 10%;
+    padding-left: 40px;
+
+    height: 8.9vh;
+    width: 100%;
+
+    font-size: 1vw;
+
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+/* ------------ DUMB ------------ */
+.warta:hover {
+    background-color: #0088a9;
+}
+.artikel:hover {
+    background-color: #0088a9;
+}
+.renungan:hover {
+    background-color: #0088a9;
+}
+.info_ibadah:hover {
+    background-color: #0088a9;
+}
+.persembahan {
+    background-color: #0088a9;
+}
+.acara:hover {
+    background-color: #0088a9;
+}
+.galeri:hover {
+    background-color: #0088a9;
+}
+.gereja_cabang:hover {
+    background-color: #0088a9;
+}
+.sejarah_gereja:hover {
+    background-color: #0088a9;
+}
+.tentang:hover {
+    background-color: #0088a9;
+}
+
+#container_kanan {
+    /* background-color: #0088a9; */
+    border-radius: 8px;
+    width: 66vw;
+    height: 116vh;
+
+    position: relative;
+}
+
+#content {
+    text-align: center;
+    /* background-color: #0088a9; */
+
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+.rekening {
+    font-family: "Rambla", sans-serif;
+    font-size: 1vw;
+}
+
+.judul {
+    font-family: "Rambla", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
